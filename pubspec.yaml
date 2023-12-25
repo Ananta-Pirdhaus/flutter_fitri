@@ -1,0 +1,29 @@
+name: flipcard_game
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter:
+    sdk: flutter
+  flip_card: ^0.7.0
+  shared_preferences: ^2.2.2
+  appwrite: ^11.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/app/assets/
+    - lib/app/assets/images/
+    - lib/app/assets/images/flipcard/
+    - lib/app/assets/images/flipcard2/
+    - lib/app/assets/images/flipcard3/
